@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: #28a745;
+}
+
+h5 {
+    font-weight: 300;
+    color: #212529;
+
+}
+
+span {
+    color: #28a745;
+    font-size:x-large;
+    font-weight: 500;
+    padding-left: 6%;
+}
+
+.btn-buy {
+    background: #707070;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.price {
+    display: inline;
+    font-weight: 300;
+}
+
+.about {
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img{
+        width: 40%;
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .row {
+        margin-top: 5%;
+    }
+
+    footer img {
+        width: 40%;
+    }
+    
+}
